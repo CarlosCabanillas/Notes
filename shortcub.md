@@ -8,7 +8,7 @@ En notación de Backus-Naur
 
 ##GNOME
 
-    Meta (tecla de windows): abre panel lateral
+    Meta: abre panel lateral
     Control Q: quitar programa
     Control W: cerrar ventana
     Alt Tabulador: alternar entre programas
@@ -56,3 +56,15 @@ En notación de Backus-Naur
     y luego tenemos readline
 
 
+rm -rf
+
+cat: concatenar archivos en la terminal
+git: 
+    clone
+    commit
+    status
+    add
+    pull
+    push
+    git add -u(remove deleted files)
+    
