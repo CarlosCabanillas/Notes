@@ -56,10 +56,10 @@ En notación de Backus-Naur
     y luego tenemos readline
 
 
-rm -rf
+    rm -rf
 
-cat: concatenar archivos en la terminal
-git: 
+    
+    git: 
     clone
     commit
     status
@@ -67,4 +67,24 @@ git:
     pull
     push
     git add -u(remove deleted files)
+    seq: secuencia de numeros
+##Comandos que unen
+    cat: concatenar archivos en la terminal
+    paste: unir en vertical
+        ej: Tantor 0
+    join: combinacion
+##Comandos que dividen
+    Cut: corta vertical cut -d" " -f 1
+    split: divide horizontal
+    tail -2 archivo
+    tail -f (deja el fichero abierto)
+    head
+##Comandos que filtran
+
+
+
+##METACARACTERES
+    ~ home
+    .: directorio actual
+    ..: directorio de arriba
     
