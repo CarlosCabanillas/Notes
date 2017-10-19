@@ -87,4 +87,4 @@ En notación de Backus-Naur
     ~ home
     .: directorio actual
     ..: directorio de arriba
-    
+    -- (a veces el fichero que representa a la terminal)
