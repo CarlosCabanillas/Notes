@@ -88,3 +88,18 @@ En notación de Backus-Naur
     .: directorio actual
     ..: directorio de arriba
     -- (a veces el fichero que representa a la terminal)
+
+wget + URL para descargar archivos
+man 1 time herramientas de terminal
+man 2 time nucleo sistema operativo
+man 3 time lenguaje de programacion
+Tambien se puede utilizar info
+-b para separar x lineas se puede poner le tamaño que lo quieres separar ej: 2MB
+
+mv: cambia el nombre o mueve de sitio un archivo.
+traducir: cat nombre archivo | tr "lo que quieras cambiar" "a lo que cambia"       Para hacer rangos por ejemplo A-Z lo cambias por a-z
+-s squeeze: apretar : cat nombrearchivo | tr -s "lo que quieras cambiar" "a lo que cambia"
+uniq -c: Deja filas unicas -c: cuenta
+sort: ordena. -n: numerico
+telnet: lo que se escribe se manda a otro ordenador. 
+- ssh: igual que telnet pero en modo seguro
