@@ -88,7 +88,10 @@ En notación de Backus-Naur
     .: directorio actual
     ..: directorio de arriba
     -- (a veces el fichero que representa a la terminal)
+    $: Da el valor de una variable
 
+echo $#: cantidad de parametros
+#: muestra los parametros
 wget + URL para descargar archivos
 man 1 time herramientas de terminal
 man 2 time nucleo sistema operativo
@@ -103,3 +106,43 @@ uniq -c: Deja filas unicas -c: cuenta
 sort: ordena. -n: numerico
 telnet: lo que se escribe se manda a otro ordenador. 
 - ssh: igual que telnet pero en modo seguro
+
+##comandos que trabajan con texto
+grep: filtra
+ed: editor sin ventanas
+sed: lo mismo
+vi: mejorado
+find: busca ficheros
+xargs ejecuta con argumentos
+which: Averiguar donde se ha instalado algo
+  1> tubo 1
+  2> tubo 2
+
+##! Shebang: Interprete con el que hay que ejecutar un archivo.
+
+\: Kryptonita, le quita el poder al siguiente caracter, de los metacaracteres
+\\: Secuencia de escape.
+"": Quitan el poder a casi todos los meta, menos al $
+$#: se convierte en comentario
+!!: el ultimo comando
+!*: los ultimos parametros
+'': quita el poder a todos los metas
+
+*: cualquier secuencia de 0 o mas caracteres
+*b: lo mismo pero solo b.
+?: cualquier caracter
+[]: comando de seleccion.
+{}: combinaciones de secuencias.      ej:   echo ma{txo,che}te
+
+for i in a e i o u; do echo $i; done
+for i in a e i o u; do touch bab${i}lonia; done
+
+##OPERADORES LOGICOS
+&&: and
+||: OR
+!: NOT
+obase ej:                  echo "obase=16"; 1389 | bc
+ibase ej:                  echo "ibase=16"; 56D | bc
+
+
+
