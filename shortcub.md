@@ -89,6 +89,9 @@ En notación de Backus-Naur
     ..: directorio de arriba
     -- (a veces el fichero que representa a la terminal)
     $: Da el valor de una variable
+    \`: ejecutar un comando y sustituir por el resultado
+    &: ejecutar una cosa en segundo plano
+
 
 echo $#: cantidad de parametros
 #: muestra los parametros
@@ -146,3 +149,14 @@ ibase ej:                  echo "ibase=16"; 56D | bc
 
 
 
+date: poner la fecha
+history: saca todos los comandos que has usado
+mysqldump: volcado de la base de datos
+rsync: hace copias de seguridad (varios equipos)
+
+
+comando fg <n>; trae un proceso a primer plano
+jobs: lista todos los procesos detenidos
+ps aux: vemos los procesos
+kill <nº proceso>: matamos el proceso
+kill-9 <nºproceso>: matar por la fuerza
